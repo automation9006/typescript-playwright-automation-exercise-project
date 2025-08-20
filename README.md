@@ -75,15 +75,8 @@ Happy Testing!!!
 
 ## run tests headed with specific browser
 ```shell
-npx playwright test ./tests/weBuyAnyCar/homePagevalidations.spec.js --headed --project=chrome
+npx playwright test ./tests/userSignup.spec.ts --headed --project=chrome
 
-npx playwright test ./tests/weBuyAnyCar/homePagevalidations.spec.js --headed --project=chromium
-
-npx playwright test ./tests/weBuyAnyCar/homePagevalidations.spec.js --headed --project=firefox
-
-npx playwright test ./tests/weBuyAnyCar/homePagevalidations.spec.js --headed --project=msedge
-
-npx playwright test ./tests/weBuyAnyCar/homePagevalidations.spec.js --headed --project=webkit
 ```
 ### How to Run Test Suite from command line
 
