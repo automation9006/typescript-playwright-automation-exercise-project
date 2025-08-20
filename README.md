@@ -75,7 +75,7 @@ Happy Testing!!!
 
 ## run tests headed with specific browser
 ```shell
-npx playwright test ./tests/userSignup.spec.ts --headed --project=chrome
+npx playwright test ./tests/uitests/userSignup.spec.ts --headed --project=chrome
 
 ```
 ### How to Run Test Suite from command line
